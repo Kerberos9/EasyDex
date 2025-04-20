@@ -1,0 +1,10 @@
+@media (min-width: 700px){
+    .pokemon-grid{
+        grid-template-columns: repeat(3, 50%);
+        display: grid;
+    }
+}
+
+body{
+    background-color: #230c33;
+}

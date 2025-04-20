@@ -1,0 +1,74 @@
+.pokemon-detail{
+    border: 1px solid lightpink;
+    display: grid;
+    width: 20em;
+    height: 20em;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.pokemon-stats-block{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    margin: 5px auto auto;
+
+}
+
+.pokemon-stats-block > label{
+    text-align: right;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.pokemon-stats-block > progress{
+    width: 5em;
+}
+.pokemon-detail-sprite{
+    margin: auto;
+}
+.pokemon-detail-id{
+    font-size: 12px;
+    text-align: right;
+    color:lightpink;
+}
+.pokemon-detail-weight{
+    font-size: 12px;
+    text-align: center;
+    color:lightpink;
+}
+
+
+.pokemon-detail-title{
+    width: 200px;
+}
+
+.tier0{
+    color: red;
+}
+
+.tier1{
+    color: #A1871F;
+}
+
+.tier2{
+    color: #F08030;
+}
+
+.tier3{
+    color: seagreen;
+}
+
+.tier4{
+    color: green;
+}
+
+.tier5{
+    color: lightgreen;
+}
+
+.pokemon-detail-total-stats{
+    font-size: 12px;
+    text-align: center;
+}
