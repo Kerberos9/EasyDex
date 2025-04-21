@@ -10,7 +10,7 @@ class PokemonList extends Component {
 
         // Filter Pokémon based on the searchTerm
         const filteredPokemon = searchTerm == '' ? [] : pokemonJson.filter(pokemon =>
-            pokemon.name.toLowerCase().includes(searchTerm.toLowerCase())
+            pokemon.evolutions.toLowerCase().includes(searchTerm.toLowerCase())
         );
 
         const pokemonGrid = filteredPokemon.map(pokemon =>

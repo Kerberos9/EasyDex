@@ -16,6 +16,7 @@ export class LitePokemon {
         this.stats.spdefense = pokemon.stats[4].base_stat;
         this.stats.speed = pokemon.stats[5].base_stat;
         this.sprite = pokemon.sprites.front_default;
+        this.evolutions = pokemon.evolutions;
     }
 }
 
